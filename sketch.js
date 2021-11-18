@@ -193,16 +193,6 @@ function spawnObstacles() {
   }
 }
 
-function reset(){
-  gameState = PLAY;
-  gameOver.visible = true;
-  restart.visible = true;
-  kangaroo.visible = true;
-  kangaroo.changeAnimation("running",
-                kangaroo_running);
-  obstaclesGroup.Each();
-  shrubsGroup.destroyEach();
-  score = 0;
-}
+
 
 
